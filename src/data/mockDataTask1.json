@@ -1,0 +1,86 @@
+{
+  "headerData": [
+    {
+      "label": "Počet dnů hatchery",
+      "value": "45"
+    },
+    {
+      "label": "Počet účastníků",
+      "value": "15"
+    },
+    {
+      "label": "Počet lektorů",
+      "value": "10"
+    },
+    {
+      "label": "Hodnoceni",
+      "value": "94%"
+    }
+  ],
+  "lectoreData": {
+    "lectorName": "John Doe",
+    "lectoreDesctription": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce tellus odio, dapibus id fermentum quis, suscipit id erat. Aliquam ornare wisi eu metus. Maecenas sollicitudin. Etiam sapien elit, consequat eget, tristique non, venenatis quis, ante. Maecenas aliquet accumsan leo. Aliquam erat volutpat."
+  },
+  "graphData": [
+    {
+      "name": "Page A",
+      "uv": 4000,
+      "pv": 2400,
+      "amt": 2400
+    },
+    {
+      "name": "Page B",
+      "uv": 3000,
+      "pv": 1398,
+      "amt": 2210
+    },
+    {
+      "name": "Page C",
+      "uv": 2000,
+      "pv": 9800,
+      "amt": 2290
+    },
+    {
+      "name": "Page D",
+      "uv": 2780,
+      "pv": 3908,
+      "amt": 2000
+    },
+    {
+      "name": "Page E",
+      "uv": 1890,
+      "pv": 4800,
+      "amt": 2181
+    },
+    {
+      "name": "Page F",
+      "uv": 2390,
+      "pv": 3800,
+      "amt": 2500
+    },
+    {
+      "name": "Page G",
+      "uv": 3490,
+      "pv": 4300,
+      "amt": 2100
+    }
+  ],
+  "tableData": [
+    {
+      "name": "Jan Novák",
+      "bio": "Nadějný programátor z Hronova",
+      "rating": "99%"
+    },
+    {
+      "name": "Jana Smutná",
+      "bio": "Nadějná designerka z Třebonic po Orebem",
+      "rating": "100%"
+    },
+    {
+      "name": "Karel Smutný",
+      "bio": "Méně nadějný programátor z Pardubic",
+      "rating": "78%"
+    }
+
+  ]
+}

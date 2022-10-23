@@ -1,0 +1,42 @@
+.main-tab{
+
+  width: 100%;
+
+
+  & &__item{
+    width: 100%;
+    text-align: center;
+    margin-top: .2rem;
+  }
+
+  & &__link{
+    color: white;
+    background-color: $primary;
+    border: 2px solid $white;
+
+    &.active{
+      background: $white;
+      color: $primary;
+      &:hover{
+      }
+    }
+
+    &:hover{
+      background: $white;
+      color: $primary;
+      border-color: $white;
+    }
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .main-tab{
+    padding-left: .5rem;
+
+    & &__item{
+      width: auto;
+      margin-right: .5rem;
+      margin-top: 0;
+    }
+  }
+}

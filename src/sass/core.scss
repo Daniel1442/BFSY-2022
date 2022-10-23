@@ -1,0 +1,201 @@
+html {
+  font-size: 14px;
+
+  @media (min-width: 768px) {
+    font-size: 16px;
+  }
+
+  .spinner {
+    display: block;
+    position: fixed;
+    z-index: 1031;
+    top: 50%;
+    right: 45%;
+  }
+
+  @media screen and (max-width: 900px) {
+    .spinner {
+      display: block;
+      position: fixed;
+      z-index: 1031;
+      top: 50%;
+      right: 33%;
+    }
+  }
+
+  .main-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .backButton {
+    height: 33px !important;
+    text-align: center !important;
+    padding-top: 2px !important;
+  }
+
+  .confirm {
+    &-backdrop {
+      z-index: 1059;
+    }
+
+    &-modal {
+      z-index: 1060;
+    }
+  }
+
+  .error-message {
+    font-size: .7rem;
+    width: 100%;
+    color: $danger;
+  }
+
+  footer {
+    margin-top: auto;
+  }
+
+  .cursor-pointer {
+    cursor: pointer;
+  }
+
+  .cursor-wait {
+    cursor: wait;
+  }
+
+  .cursor-default {
+    cursor: default;
+  }
+
+  .textLeft {
+    text-align: left;
+  }
+
+  .textRight {
+    text-align: right;
+  }
+
+  .textCenter {
+    text-align: center;
+  }
+
+  .fullHeight {
+    height: 70vh;
+  }
+
+  .buttons {
+    white-space: nowrap;
+  }
+
+  #tableLength {
+    margin-bottom: 10px;
+  }
+
+  #tableLength label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+  }
+
+  .float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: $primary;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 3;
+  }
+
+  .my-float {
+    margin-top: 18px;
+  }
+
+  .highlightColor {
+    &:hover {
+      background-color: $primary;
+      opacity: 0.4;
+      color: #FFFFFF;
+    }
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .syncCenter {
+    position: absolute;
+    left: 49%;
+  }
+
+  @media screen and (max-width: 900px) {
+    .syncCenter {
+      position: absolute;
+      left: 45%;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .leftMargin {
+      margin-left: 5px !important;
+    }
+  }
+
+  .floatRight {
+    position: absolute;
+    right: 1px;
+  }
+
+  .zIndex {
+    z-index: 10;
+  }
+
+  .widthFitContentForFormButtons {
+    width: fit-content !important;
+  }
+
+  .show {
+    display: block !important;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .leftMargin {
+    margin-left: 35px;
+  }
+
+  .form {
+    height: 76vh;
+    overflow: scroll;
+  }
+  form{
+    margin-bottom: 105px!important;
+  }
+
+  .formSecondPart {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 63vh;
+
+  }
+
+  .listButton {
+    padding: 0 6px 0 6px;
+  }
+
+  .buttonBar{
+    position: fixed;
+    bottom: 80px;
+    right: 0;
+  }
+
+}
+

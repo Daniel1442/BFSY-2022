@@ -1,0 +1,67 @@
+{
+  "populationDataOverAll": [
+    {
+      "year": 2017,
+      "value": 10601000
+    },
+    {
+      "year": 2018,
+      "value": 10649800
+    },
+    {
+      "year": 2019,
+      "value": 10693900
+    },
+    {
+      "year": 2020,
+      "value": 10701800
+    },  {
+      "year": 2021,
+      "value": 10515700
+    }
+  ],
+
+  "deathDataOverAll": [
+    {
+      "year": 2017,
+      "value": 111443
+    },
+    {
+      "year": 2018,
+      "value": 112920
+    },
+    {
+      "year": 2019,
+      "value": 112362
+    },
+    {
+      "year": 2020,
+      "value": 129289
+    },  {
+      "year": 2021,
+      "value": 139891
+    }
+  ],
+  "bornDataOverAll": [
+    {
+      "year": 2017,
+      "value": 114405
+    },
+    {
+      "year": 2018,
+      "value": 114036
+    },
+    {
+      "year": 2019,
+      "value": 112231
+    },
+    {
+      "year": 2020,
+      "value": 110200
+    },  {
+      "year": 2021,
+      "value": 111793
+    }
+  ]
+}
+

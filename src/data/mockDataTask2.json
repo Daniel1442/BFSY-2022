@@ -1,0 +1,8 @@
+{
+  "stores": [
+    {"storeName":  "Domácí potřeby", "limit":  20},
+    {"storeName":  "Hračky", "limit":  10},
+    {"storeName":  "Parfémy", "limit":  30},
+    {"storeName":  "Elektro", "limit":  40}
+  ]
+}
