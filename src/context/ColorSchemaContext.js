@@ -5,8 +5,7 @@ export const ColorSchemeContext = createContext(null);
 export const ColorSchemeContextProvider = ({children}) => {
 
     const [colorScheme, setColorSchema] = useState({
-        color: "#0000ff",
-        bg: "#fff"
+        color: "#0000ff"
     });
 
     return (
